@@ -1,3 +1,5 @@
+This repository contains two projects for gesture control using hand tracking and recognition. Below are brief descriptions of each project along with instructions on how to run them.
+
 # Gesture_Control_Virtual_Mouse
 
 This project implements a virtual mouse control system using hand gestures. It utilizes the Mediapipe library for hand tracking and recognition, OpenCV for image processing, and PyAutoGUI for mouse control. The system recognizes various hand gestures and translates them into corresponding mouse actions.
