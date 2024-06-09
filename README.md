@@ -10,16 +10,16 @@ This project implements a virtual mouse control system using hand gestures. It u
 - Virtual Mouse Control: Uses recognized gestures to control the computer's mouse, allowing for various actions such as left-click, right-click, scrolling, and dragging.
 - System Control: Implements additional functionalities like adjusting system brightness and volume based on specific gestures.
 
-- The code recognizes a set of basic gestures chosen for intuitiveness and ease of use:
+The code recognizes a set of basic gestures chosen for intuitiveness and ease of use:
 
-Pointing finger: Used for cursor movement on the screen.
-Fist: Simulates a left mouse click and tracks hand movement.
-Open palm (mid-finger gesture with a flag): Used for a single left click after a pointing gesture (similar to a traditional mouse click).
-Index finger: Simulates a right-click.
-Two-finger closed: Triggers a double-click.
-Pinch gestures (with additional logic):
-Minor hand pinch: Controls horizontal or vertical scrolling.
-Major hand pinch: Controls system functions like brightness (implemented) or volume (potential future implementation).
+  -Pointing finger: Used for cursor movement on the screen.
+  -Fist: Simulates a left mouse click and tracks hand movement.
+  -Open palm (mid-finger gesture with a flag): Used for a single left click after a pointing gesture (similar to a traditional mouse click).
+  -Index finger: Simulates a right-click.
+  -Two-finger closed: Triggers a double-click.
+  -Pinch gestures (with additional logic):
+    -Minor hand pinch: Controls horizontal or vertical scrolling.
+    -Major hand pinch: Controls system functions like brightness (implemented) or volume (potential future implementation).
 
 ## Requirements
 -Python 3.11
